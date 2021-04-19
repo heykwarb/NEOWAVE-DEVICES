@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF05F40A25B40F3B0069A584 /* MyDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF05F40925B40F3B0069A584 /* MyDevice.swift */; };
+		CF0BB9EE25B4089B00F325FD /* DeviceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0BB9ED25B4089B00F325FD /* DeviceDetails.swift */; };
+		CF2312BB25B2A8DB000011F6 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2312BA25B2A8DB000011F6 /* BlurView.swift */; };
+		CF2312C025B2BF14000011F6 /* ConnectionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2312BF25B2BF14000011F6 /* ConnectionButton.swift */; };
+		CF3D289625B6A6060012764D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3D289525B6A6060012764D /* ContentView.swift */; };
+		CF4E0EEC2622AF3F0011DCAF /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E0EEB2622AF3F0011DCAF /* PlaySound.swift */; };
+		CF4E0F11262341770011DCAF /* on_118.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF4E0F0D262341760011DCAF /* on_118.mp3 */; };
+		CF4E0F12262341770011DCAF /* on_306.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF4E0F0E262341760011DCAF /* on_306.mp3 */; };
+		CF4E0F13262341770011DCAF /* off_118.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF4E0F0F262341760011DCAF /* off_118.mp3 */; };
+		CF4E0F14262341770011DCAF /* off_306.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF4E0F10262341770011DCAF /* off_306.mp3 */; };
+		CFC8E06C25C7D59E000FBDA1 /* BTStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC8E06B25C7D59E000FBDA1 /* BTStatus.swift */; };
+		CFC8E07D25C8092A000FBDA1 /* slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC8E07C25C8092A000FBDA1 /* slider.swift */; };
+		CFC95E2C25B1DF7900AFFC84 /* NEOWAVE_DEVICESApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC95E2B25B1DF7900AFFC84 /* NEOWAVE_DEVICESApp.swift */; };
+		CFC95E3025B1DF7D00AFFC84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFC95E2F25B1DF7D00AFFC84 /* Assets.xcassets */; };
+		CFC95E3325B1DF7D00AFFC84 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFC95E3225B1DF7D00AFFC84 /* Preview Assets.xcassets */; };
+		CFC95E3E25B1DF7D00AFFC84 /* NEOWAVE_KicksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC95E3D25B1DF7D00AFFC84 /* NEOWAVE_KicksTests.swift */; };
+		CFC95E4925B1DF7D00AFFC84 /* NEOWAVE_KicksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC95E4825B1DF7D00AFFC84 /* NEOWAVE_KicksUITests.swift */; };
+		CFC95E5A25B1E84D00AFFC84 /* NikeSwoosh.usdz in Resources */ = {isa = PBXBuildFile; fileRef = CFC95E5925B1E84C00AFFC84 /* NikeSwoosh.usdz */; };
+		CFC9D8C225D3B1BA00BA86BF /* DIGITALIZED SWOOSH icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CFC9D8C125D3B1B900BA86BF /* DIGITALIZED SWOOSH icon.png */; };
+		CFC9D8C725D3BDF300BA86BF /* DeviceStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC9D8C625D3BDF300BA86BF /* DeviceStatus.swift */; };
+		CFC9D8CF25D3C5F300BA86BF /* AddDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC9D8CE25D3C5F300BA86BF /* AddDevice.swift */; };
+		CFC9D8D725D42D3C00BA86BF /* NSW cyberpunk icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CFC9D8D625D42D3C00BA86BF /* NSW cyberpunk icon.png */; };
+		CFF19FAC25C1ACC400D8115C /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF19FAB25C1ACC400D8115C /* BLEManager.swift */; };
+		CFFE4B0225DA4AE0006350A2 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFE4B0125DA4AE0006350A2 /* Color.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFC95E3A25B1DF7D00AFFC84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFC95E2025B1DF7900AFFC84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFC95E2725B1DF7900AFFC84;
+			remoteInfo = "NEOWAVE Kicks";
+		};
+		CFC95E4525B1DF7D00AFFC84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFC95E2025B1DF7900AFFC84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFC95E2725B1DF7900AFFC84;
+			remoteInfo = "NEOWAVE Kicks";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CF4167E725F9EED7002B90FF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CF05F40925B40F3B0069A584 /* MyDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDevice.swift; sourceTree = "<group>"; };
+		CF0BB9ED25B4089B00F325FD /* DeviceDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDetails.swift; sourceTree = "<group>"; };
+		CF2312BA25B2A8DB000011F6 /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		CF2312BF25B2BF14000011F6 /* ConnectionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionButton.swift; sourceTree = "<group>"; };
+		CF3D289525B6A6060012764D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF4167CD25F9EED7002B90FF /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		CF4167D825F9EED7002B90FF /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		CF4E0EEB2622AF3F0011DCAF /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		CF4E0F0D262341760011DCAF /* on_118.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = on_118.mp3; sourceTree = "<group>"; };
+		CF4E0F0E262341760011DCAF /* on_306.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = on_306.mp3; sourceTree = "<group>"; };
+		CF4E0F0F262341760011DCAF /* off_118.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = off_118.mp3; sourceTree = "<group>"; };
+		CF4E0F10262341770011DCAF /* off_306.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = off_306.mp3; sourceTree = "<group>"; };
+		CFC8E06B25C7D59E000FBDA1 /* BTStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTStatus.swift; sourceTree = "<group>"; };
+		CFC8E07C25C8092A000FBDA1 /* slider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slider.swift; sourceTree = "<group>"; };
+		CFC95E2825B1DF7900AFFC84 /* NEOWAVE DEVICES.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NEOWAVE DEVICES.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC95E2B25B1DF7900AFFC84 /* NEOWAVE_DEVICESApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEOWAVE_DEVICESApp.swift; sourceTree = "<group>"; };
+		CFC95E2F25B1DF7D00AFFC84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFC95E3225B1DF7D00AFFC84 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFC95E3425B1DF7D00AFFC84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFC95E3925B1DF7D00AFFC84 /* NEOWAVE DEVICESTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NEOWAVE DEVICESTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC95E3D25B1DF7D00AFFC84 /* NEOWAVE_KicksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEOWAVE_KicksTests.swift; sourceTree = "<group>"; };
+		CFC95E3F25B1DF7D00AFFC84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFC95E4425B1DF7D00AFFC84 /* NEOWAVE DEVICESUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NEOWAVE DEVICESUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC95E4825B1DF7D00AFFC84 /* NEOWAVE_KicksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEOWAVE_KicksUITests.swift; sourceTree = "<group>"; };
+		CFC95E4A25B1DF7D00AFFC84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFC95E5925B1E84C00AFFC84 /* NikeSwoosh.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = NikeSwoosh.usdz; sourceTree = "<group>"; };
+		CFC9D8C125D3B1B900BA86BF /* DIGITALIZED SWOOSH icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DIGITALIZED SWOOSH icon.png"; sourceTree = "<group>"; };
+		CFC9D8C625D3BDF300BA86BF /* DeviceStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceStatus.swift; sourceTree = "<group>"; };
+		CFC9D8CE25D3C5F300BA86BF /* AddDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDevice.swift; sourceTree = "<group>"; };
+		CFC9D8D625D42D3C00BA86BF /* NSW cyberpunk icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NSW cyberpunk icon.png"; sourceTree = "<group>"; };
+		CFF19FAB25C1ACC400D8115C /* BLEManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
+		CFFE4B0125DA4AE0006350A2 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFC95E2525B1DF7900AFFC84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC95E3625B1DF7D00AFFC84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC95E4125B1DF7D00AFFC84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF4167CC25F9EED7002B90FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF4167CD25F9EED7002B90FF /* Intents.framework */,
+				CF4167D825F9EED7002B90FF /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF4E0F062623099E0011DCAF /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				CF4E0F0F262341760011DCAF /* off_118.mp3 */,
+				CF4E0F10262341770011DCAF /* off_306.mp3 */,
+				CF4E0F0D262341760011DCAF /* on_118.mp3 */,
+				CF4E0F0E262341760011DCAF /* on_306.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		CFC95E1F25B1DF7900AFFC84 = {
+			isa = PBXGroup;
+			children = (
+				CFC95E2A25B1DF7900AFFC84 /* NEOWAVE DEVICES */,
+				CFC95E3C25B1DF7D00AFFC84 /* NEOWAVE KicksTests */,
+				CFC95E4725B1DF7D00AFFC84 /* NEOWAVE KicksUITests */,
+				CF4167CC25F9EED7002B90FF /* Frameworks */,
+				CFC95E2925B1DF7900AFFC84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFC95E2925B1DF7900AFFC84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFC95E2825B1DF7900AFFC84 /* NEOWAVE DEVICES.app */,
+				CFC95E3925B1DF7D00AFFC84 /* NEOWAVE DEVICESTests.xctest */,
+				CFC95E4425B1DF7D00AFFC84 /* NEOWAVE DEVICESUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFC95E2A25B1DF7900AFFC84 /* NEOWAVE DEVICES */ = {
+			isa = PBXGroup;
+			children = (
+				CFC95E2B25B1DF7900AFFC84 /* NEOWAVE_DEVICESApp.swift */,
+				CFF19F9625C19D2100D8115C /* View */,
+				CFF19F9525C19D0D00D8115C /* Model */,
+				CF4E0F062623099E0011DCAF /* Sounds */,
+				CFC95E2F25B1DF7D00AFFC84 /* Assets.xcassets */,
+				CFC9D8D625D42D3C00BA86BF /* NSW cyberpunk icon.png */,
+				CFC9D8C125D3B1B900BA86BF /* DIGITALIZED SWOOSH icon.png */,
+				CFC95E3425B1DF7D00AFFC84 /* Info.plist */,
+				CFC95E5925B1E84C00AFFC84 /* NikeSwoosh.usdz */,
+				CFC95E3125B1DF7D00AFFC84 /* Preview Content */,
+			);
+			path = "NEOWAVE DEVICES";
+			sourceTree = "<group>";
+		};
+		CFC95E3125B1DF7D00AFFC84 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CFC95E3225B1DF7D00AFFC84 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFC95E3C25B1DF7D00AFFC84 /* NEOWAVE KicksTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFC95E3D25B1DF7D00AFFC84 /* NEOWAVE_KicksTests.swift */,
+				CFC95E3F25B1DF7D00AFFC84 /* Info.plist */,
+			);
+			path = "NEOWAVE KicksTests";
+			sourceTree = "<group>";
+		};
+		CFC95E4725B1DF7D00AFFC84 /* NEOWAVE KicksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFC95E4825B1DF7D00AFFC84 /* NEOWAVE_KicksUITests.swift */,
+				CFC95E4A25B1DF7D00AFFC84 /* Info.plist */,
+			);
+			path = "NEOWAVE KicksUITests";
+			sourceTree = "<group>";
+		};
+		CFF19F9525C19D0D00D8115C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CFF19FAB25C1ACC400D8115C /* BLEManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CFF19F9625C19D2100D8115C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF3D289525B6A6060012764D /* ContentView.swift */,
+				CF05F40925B40F3B0069A584 /* MyDevice.swift */,
+				CFC9D8CE25D3C5F300BA86BF /* AddDevice.swift */,
+				CF0BB9ED25B4089B00F325FD /* DeviceDetails.swift */,
+				CFFE4B0125DA4AE0006350A2 /* Color.swift */,
+				CFC8E07C25C8092A000FBDA1 /* slider.swift */,
+				CF2312BF25B2BF14000011F6 /* ConnectionButton.swift */,
+				CFC9D8C625D3BDF300BA86BF /* DeviceStatus.swift */,
+				CFC8E06B25C7D59E000FBDA1 /* BTStatus.swift */,
+				CF2312BA25B2A8DB000011F6 /* BlurView.swift */,
+				CF4E0EEB2622AF3F0011DCAF /* PlaySound.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFC95E2725B1DF7900AFFC84 /* NEOWAVE DEVICES */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFC95E4D25B1DF7D00AFFC84 /* Build configuration list for PBXNativeTarget "NEOWAVE DEVICES" */;
+			buildPhases = (
+				CFC95E2425B1DF7900AFFC84 /* Sources */,
+				CFC95E2525B1DF7900AFFC84 /* Frameworks */,
+				CFC95E2625B1DF7900AFFC84 /* Resources */,
+				CF4167E725F9EED7002B90FF /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NEOWAVE DEVICES";
+			productName = "NEOWAVE Kicks";
+			productReference = CFC95E2825B1DF7900AFFC84 /* NEOWAVE DEVICES.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFC95E3825B1DF7D00AFFC84 /* NEOWAVE DEVICESTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFC95E5025B1DF7D00AFFC84 /* Build configuration list for PBXNativeTarget "NEOWAVE DEVICESTests" */;
+			buildPhases = (
+				CFC95E3525B1DF7D00AFFC84 /* Sources */,
+				CFC95E3625B1DF7D00AFFC84 /* Frameworks */,
+				CFC95E3725B1DF7D00AFFC84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFC95E3B25B1DF7D00AFFC84 /* PBXTargetDependency */,
+			);
+			name = "NEOWAVE DEVICESTests";
+			productName = "NEOWAVE KicksTests";
+			productReference = CFC95E3925B1DF7D00AFFC84 /* NEOWAVE DEVICESTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFC95E4325B1DF7D00AFFC84 /* NEOWAVE DEVICESUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFC95E5325B1DF7D00AFFC84 /* Build configuration list for PBXNativeTarget "NEOWAVE DEVICESUITests" */;
+			buildPhases = (
+				CFC95E4025B1DF7D00AFFC84 /* Sources */,
+				CFC95E4125B1DF7D00AFFC84 /* Frameworks */,
+				CFC95E4225B1DF7D00AFFC84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFC95E4625B1DF7D00AFFC84 /* PBXTargetDependency */,
+			);
+			name = "NEOWAVE DEVICESUITests";
+			productName = "NEOWAVE KicksUITests";
+			productReference = CFC95E4425B1DF7D00AFFC84 /* NEOWAVE DEVICESUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFC95E2025B1DF7900AFFC84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					CFC95E2725B1DF7900AFFC84 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					CFC95E3825B1DF7D00AFFC84 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = CFC95E2725B1DF7900AFFC84;
+					};
+					CFC95E4325B1DF7D00AFFC84 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = CFC95E2725B1DF7900AFFC84;
+					};
+				};
+			};
+			buildConfigurationList = CFC95E2325B1DF7900AFFC84 /* Build configuration list for PBXProject "NEOWAVE DEVICES" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFC95E1F25B1DF7900AFFC84;
+			productRefGroup = CFC95E2925B1DF7900AFFC84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFC95E2725B1DF7900AFFC84 /* NEOWAVE DEVICES */,
+				CFC95E3825B1DF7D00AFFC84 /* NEOWAVE DEVICESTests */,
+				CFC95E4325B1DF7D00AFFC84 /* NEOWAVE DEVICESUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFC95E2625B1DF7900AFFC84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4E0F12262341770011DCAF /* on_306.mp3 in Resources */,
+				CFC9D8C225D3B1BA00BA86BF /* DIGITALIZED SWOOSH icon.png in Resources */,
+				CFC95E3325B1DF7D00AFFC84 /* Preview Assets.xcassets in Resources */,
+				CF4E0F14262341770011DCAF /* off_306.mp3 in Resources */,
+				CF4E0F11262341770011DCAF /* on_118.mp3 in Resources */,
+				CFC9D8D725D42D3C00BA86BF /* NSW cyberpunk icon.png in Resources */,
+				CF4E0F13262341770011DCAF /* off_118.mp3 in Resources */,
+				CFC95E3025B1DF7D00AFFC84 /* Assets.xcassets in Resources */,
+				CFC95E5A25B1E84D00AFFC84 /* NikeSwoosh.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC95E3725B1DF7D00AFFC84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC95E4225B1DF7D00AFFC84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFC95E2425B1DF7900AFFC84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC8E07D25C8092A000FBDA1 /* slider.swift in Sources */,
+				CF05F40A25B40F3B0069A584 /* MyDevice.swift in Sources */,
+				CFF19FAC25C1ACC400D8115C /* BLEManager.swift in Sources */,
+				CF2312C025B2BF14000011F6 /* ConnectionButton.swift in Sources */,
+				CFC8E06C25C7D59E000FBDA1 /* BTStatus.swift in Sources */,
+				CFFE4B0225DA4AE0006350A2 /* Color.swift in Sources */,
+				CFC9D8CF25D3C5F300BA86BF /* AddDevice.swift in Sources */,
+				CF0BB9EE25B4089B00F325FD /* DeviceDetails.swift in Sources */,
+				CFC95E2C25B1DF7900AFFC84 /* NEOWAVE_DEVICESApp.swift in Sources */,
+				CFC9D8C725D3BDF300BA86BF /* DeviceStatus.swift in Sources */,
+				CF3D289625B6A6060012764D /* ContentView.swift in Sources */,
+				CF4E0EEC2622AF3F0011DCAF /* PlaySound.swift in Sources */,
+				CF2312BB25B2A8DB000011F6 /* BlurView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC95E3525B1DF7D00AFFC84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC95E3E25B1DF7D00AFFC84 /* NEOWAVE_KicksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC95E4025B1DF7D00AFFC84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC95E4925B1DF7D00AFFC84 /* NEOWAVE_KicksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFC95E3B25B1DF7D00AFFC84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFC95E2725B1DF7900AFFC84 /* NEOWAVE DEVICES */;
+			targetProxy = CFC95E3A25B1DF7D00AFFC84 /* PBXContainerItemProxy */;
+		};
+		CFC95E4625B1DF7D00AFFC84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFC95E2725B1DF7900AFFC84 /* NEOWAVE DEVICES */;
+			targetProxy = CFC95E4525B1DF7D00AFFC84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CFC95E4B25B1DF7D00AFFC84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFC95E4C25B1DF7D00AFFC84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFC95E4E25B1DF7D00AFFC84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NEOWAVE DEVICES/Preview Content\"";
+				DEVELOPMENT_TEAM = VVD3L3V6TF;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "NEOWAVE DEVICES/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.heykwarb.neowavedevices;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFC95E4F25B1DF7D00AFFC84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NEOWAVE DEVICES/Preview Content\"";
+				DEVELOPMENT_TEAM = VVD3L3V6TF;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "NEOWAVE DEVICES/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.heykwarb.neowavedevices;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFC95E5125B1DF7D00AFFC84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VVD3L3V6TF;
+				INFOPLIST_FILE = "NEOWAVE KicksTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.heykwarb.NEOWAVE-KicksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NEOWAVE DEVICES.app/NEOWAVE DEVICES";
+			};
+			name = Debug;
+		};
+		CFC95E5225B1DF7D00AFFC84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VVD3L3V6TF;
+				INFOPLIST_FILE = "NEOWAVE KicksTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.heykwarb.NEOWAVE-KicksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NEOWAVE DEVICES.app/NEOWAVE DEVICES";
+			};
+			name = Release;
+		};
+		CFC95E5425B1DF7D00AFFC84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VVD3L3V6TF;
+				INFOPLIST_FILE = "NEOWAVE KicksUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.heykwarb.NEOWAVE-KicksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NEOWAVE Kicks";
+			};
+			name = Debug;
+		};
+		CFC95E5525B1DF7D00AFFC84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VVD3L3V6TF;
+				INFOPLIST_FILE = "NEOWAVE KicksUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.heykwarb.NEOWAVE-KicksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NEOWAVE Kicks";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFC95E2325B1DF7900AFFC84 /* Build configuration list for PBXProject "NEOWAVE DEVICES" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC95E4B25B1DF7D00AFFC84 /* Debug */,
+				CFC95E4C25B1DF7D00AFFC84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFC95E4D25B1DF7D00AFFC84 /* Build configuration list for PBXNativeTarget "NEOWAVE DEVICES" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC95E4E25B1DF7D00AFFC84 /* Debug */,
+				CFC95E4F25B1DF7D00AFFC84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFC95E5025B1DF7D00AFFC84 /* Build configuration list for PBXNativeTarget "NEOWAVE DEVICESTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC95E5125B1DF7D00AFFC84 /* Debug */,
+				CFC95E5225B1DF7D00AFFC84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFC95E5325B1DF7D00AFFC84 /* Build configuration list for PBXNativeTarget "NEOWAVE DEVICESUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC95E5425B1DF7D00AFFC84 /* Debug */,
+				CFC95E5525B1DF7D00AFFC84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFC95E2025B1DF7900AFFC84 /* Project object */;
+}
